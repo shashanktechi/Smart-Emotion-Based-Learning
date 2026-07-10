@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+Flask-Limiter
+python-jose
+python-dotenv
+mediapipe
+opencv-python-headless
+numpy
+gunicorn
