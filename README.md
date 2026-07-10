@@ -82,20 +82,6 @@ npm run dev
 
 ---
 
-## 👤 Admin Access & Setup
-
-To access the administrator viewport and explore the advanced analytics features:
-
-1.  Register a new account on the frontend signup page.
-2.  Open your MySQL command-line or database client (e.g., phpMyAdmin, DBeaver, MySQL Workbench).
-3.  Run the following SQL query to grant Administrator privileges to your account:
-    ```sql
-    UPDATE users SET role = 'admin' WHERE email = 'your_registered_email@example.com';
-    ```
-4.  Log out of the app and log back in. The system will automatically route you to the **Admin Dashboard**!
-
----
-
 ## 🛡️ License
 
 This project is open-source and available under the MIT License.
